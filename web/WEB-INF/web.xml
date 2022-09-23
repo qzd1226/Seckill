@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+    <servlet>
+        <display-name>doseckill</display-name>
+        <servlet-name>doseckill</servlet-name>
+        <servlet-class>com.atguigu.SecKillServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>doseckill</servlet-name>
+        <url-pattern>/doseckill</url-pattern>
+    </servlet-mapping>
+</web-app>
