@@ -1,21 +1,14 @@
-package com.atguigu;
+package com.qzd;
 
 import java.io.IOException;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
-import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 import org.slf4j.LoggerFactory;
 
-import ch.qos.logback.core.joran.conditional.ElseAction;
 import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisCluster;
 import redis.clients.jedis.JedisPool;
-import redis.clients.jedis.JedisPoolConfig;
-import redis.clients.jedis.ShardedJedisPool;
-import redis.clients.jedis.Transaction;
 
 public class SecKill_redisByScript {
 	

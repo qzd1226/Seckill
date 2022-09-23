@@ -1,6 +1,5 @@
-package com.atguigu;
+package com.qzd;
 
-import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 

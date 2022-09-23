@@ -4,7 +4,7 @@
     <servlet>
         <display-name>doseckill</display-name>
         <servlet-name>doseckill</servlet-name>
-        <servlet-class>com.atguigu.SecKillServlet</servlet-class>
+        <servlet-class>com.qzd.SecKillServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>doseckill</servlet-name>
